@@ -1,0 +1,173 @@
+.main{
+  padding:5em 1em 1em 1em;
+  background-color: #212529;
+  color: #efefef;
+}
+
+h2 {
+  color: #e7e3e33f;
+  text-align: center;
+}
+
+
+body {
+ margin: 0; 
+ background-color: #212529;
+}
+
+.offcanvas-header {
+  background-color: #f3f3f3f9;
+  text-align: center;
+  padding: 70px;
+}
+
+.offcanvas {
+  overflow: hidden;
+  background-color: #101010c2;
+}
+
+.sobreNosotros-nav{
+  margin-right: 5px;
+}
+.sobreNosotros-link{
+  color: #FFFF;
+  background-color: #31363B;
+}
+.sobreNosotros-link:hover{
+  color: #FFF;
+  opacity: 0.75;
+}
+
+.navbar{
+  background-color: #31363B;
+}
+
+.nav-menu-link {
+  display: block;
+  color: #FFFF;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.nav-menu-link:hover { 
+  background-color: #e80b0ba4;
+}
+
+.nav-item{
+  margin: 0;
+}
+
+.invisible{
+   display: none;
+}
+
+
+
+.pe-3 {
+  padding-right: 0 !important;
+}
+
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 0;
+  overflow-y: auto;
+}
+
+
+/*sobre nosotros*/
+.footer{
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  background-color: #31363B;
+}
+
+.footer-container{
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.footer-row{
+  display: flex;
+  width: 100%;
+}
+
+.footer-col{
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.footer-titulo{
+  color: #FFFF;
+  text-align: left;
+}
+
+.footer-texto{
+  color: #FFFF;
+}
+
+#mapa{
+  max-width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.footer-direccion{
+  color: #CCC;
+}
+
+.redes-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.redes-item{
+  padding: 0 1rem;
+}
+
+.redes-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer-hr{
+  height: 5px;
+  background-color: #FFFF;
+}
+
+.whatsapp-icon,
+.facebook-icon,
+.instagram-icon,
+.gmail-icon{
+  transition: all 0.3s ease;
+}
+
+.whatsapp-icon:hover{
+  color: #25D366;
+}
+
+.facebook-icon:hover{
+  color: #1877F2;
+}
+
+.instagram-icon:hover{
+  color: #A111F3;
+}
+
+.gmail-icon:hover{
+  color: #CF3B2E;
+}
+
+@media (max-width: 800px){
+    
+  .footer-row {
+      flex-direction: column;
+  }
+
+  .footer-col + .footer-col{
+      margin-left: 0;
+  }
+}
