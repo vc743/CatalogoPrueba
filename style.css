@@ -171,3 +171,9 @@ body {
       margin-left: 0;
   }
 }
+
+@media (max-width: 770px){
+  .container, .container-sm {
+      max-width: 385px;
+  }
+}
